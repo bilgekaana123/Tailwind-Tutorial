@@ -1,5 +1,5 @@
 // Create package.json
-npm init -y
+// npm init -y
 
 // Install tailwind
 npm install -D tailwindcss
