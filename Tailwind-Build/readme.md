@@ -1,4 +1,4 @@
-[a link](https://github.com/user/repo/blob/branch/other_file.md)
+[Tailwind Installation](https://tailwindcss.com/docs/installation)
 
 ### Create package.json
 
