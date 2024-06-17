@@ -1,26 +1,34 @@
-<!-- Create package.json -->
+# Create package.json
 
-// Create package.json
-// npm init -y
+npm init -y
 
-// Install tailwind
-//npm install -D tailwindcss
-// npx tailwindcss init
+# Install tailwind
 
-// Change tailwind.config.js
-// content: ["./src/**/*.{html,js}"],
+pm install -D tailwindcss
+npx tailwindcss init
 
-// Create src/input.css
-// @tailwind base;
-// @tailwind components;
-// @tailwind utilities;
+# Change tailwind.config.js
 
-// Build
-//npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+content: ["./src/**/*.{html,js}"],
 
-// If you want to open another folder dist/.html
-// npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+# Create src/input.css
 
-// You create html with output.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-<!-- <link href="output.css" rel="stylesheet"> -->
+# Build
+
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
+# If you want to open another folder dist/.html
+
+```
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+```
+
+# You create html with output.css
+
+```
+<link href="output.css" rel="stylesheet">
+```
