@@ -20,4 +20,5 @@
 // npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 
 // You create html with output.css
-// <link href="output.css" rel="stylesheet">
+
+<!-- <link href="output.css" rel="stylesheet"> -->
