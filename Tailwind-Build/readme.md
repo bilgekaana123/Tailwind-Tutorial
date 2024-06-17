@@ -1,3 +1,5 @@
+<!-- Create package.json -->
+
 // Create package.json
 // npm init -y
 
